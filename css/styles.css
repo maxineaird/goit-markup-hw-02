@@ -8,7 +8,9 @@ list-style: none;
 
 .link {
     text-decoration: none;
-}
+} 
+
+/* ----------------------- HEADER */
 
 /*.header {
 }
@@ -30,6 +32,8 @@ list-style: none;
     letter-spacing: 0.02em;
     color: #2E2F42;
 }
+
+
 .header-mail {
     font-weight: 400;
     font-size: 16px;
@@ -48,6 +52,9 @@ list-style: none;
     color: #434455;
     
 }
+
+/*---------------------- HERO */
+
 .hero {
 }
 .hero-header {
