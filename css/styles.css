@@ -1,185 +1,216 @@
+:root {
+  --main-color: #2e2f42;
+  --second-color: #434455;
+  --third-color: #ffffff;
+  --forth-color: #e7e9fc;
+  --fifth-color: #4D5AE5;
+}
+
 body {
-font-family: 'roboto', sans-serif;
+  font-family: "roboto", sans-serif;
+}
+
+.accent {
+  font-family: 'Raleway';
+font-weight: 800;
+font-size: 18px;
+line-height: 1.33;
+
+display: flex;
+align-items: center;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+
+color: #4D5AE5;
+}
+
+.text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
+.title{
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+}
+
+.list-title{
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
 }
 
 .list {
-list-style: none;
+  list-style: none;
 }
 
 .link {
-    text-decoration: none;
-} 
+  text-decoration: none;
+}
 
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
 /* ----------------------- HEADER */
 
 /* .header {
 }
 .header-navigation {
 }
+*/
 .header-logo {
+  font-family: 'Raleway';
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.33;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  
+  color: #2E2F42;
 }
+/*
 .header-list {
 }
 .header-item {
 } */
 
 .header-link {
-    font-family: 'Roboto';
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.5;
-    
-    letter-spacing: 0.02em;
-    color: #2E2F42;
-}
+  font-family: "Roboto";
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
 
+  letter-spacing: 0.02em;
+  color: var(--main-color);
+}
 
 .header-mail {
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 1.5;
-    
-    letter-spacing: 0.02em;
-    color: #434455;
-    
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+
+  letter-spacing: 0.02em;
+  color: var(--second-color);
 }
 .header-tel {
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 1.5;
-    
-    letter-spacing: 0.02em;
-    color: #434455;
-    
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+
+  letter-spacing: 0.02em;
+  color: var(--second-color);
 }
 
 /*---------------------- HERO */
 
 .hero {
-    background-color: #2E2F42;
+  background-color: var(--main-color);
 }
-.hero-header {
-        font-weight: 700;
-        font-size: 56px;
-        line-height: 1.07;
-    
-        text-align: center;
-        letter-spacing: 0.02em;
-    
-        color: #FFFFFF;
+.hero-title {
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 1.07;
+
+  text-align: center;
+  letter-spacing: 0.02em;
+
+  color: var(--third-color);
 }
 .hero-btn {
-    font-family: inherit;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.5;
-    
-    display: flex;
-    align-items: center;
-    letter-spacing: 0.04em;
-    
-    color: #FFFFFF;
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.04em;
+
+  cursor: pointer;
+  color: var(--third-color);
+  
+  background-color: var(--fifth-color);
+  border: none;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
 }
 
 /* --------------------------- FEATURES */
 
 /* .features {} */
 
-.features-title {
-        font-weight: 500;
-        font-size: 20px;
-        line-height: 1.2;
-    
-        letter-spacing: 0.02em;
-        color: #2E2F42;
-}
-
 /* .features-list-item {
 
 } */
 
 .features-list-title {
-        font-weight: 500;
-        font-size: 20px;
-        line-height: 1.2;
-        letter-spacing: 0.02em;
-    
-        color: #2E2F42;
+  color: var(--main-color);
 }
 
 .features-list-text {
-        font-weight: 400;
-        font-size: 16px;
-        line-height: 1.5;
-        letter-spacing: 0.02em;
-    
-        color: #434455;
+  color: var(--second-color);
 }
 
-.work {}
+/* ----------------------------- WORK */
+
+/* .work {} */
 
 .work-title {
-        font-weight: 700;
-        font-size: 36px;
-        line-height: 1.11;
-        text-align: center;
-        letter-spacing: 0.02em;
-        text-transform: capitalize;
-    
-        color: #2E2F42;
+  color: var(--main-color);
 }
 
-.work-list {}
+/* .work-list {}
 
 .work-list-item {}
 
+/* ----------------------------- TEAM */
 
-.team {}
+/* .team {} */
 
 .team-title {
-        font-weight: 700;
-        font-size: 36px;
-        line-height: 1.11;
-        text-align: center;
-        letter-spacing: 0.02em;
-        text-transform: capitalize;
-    
-        color: #2E2F42;
+  color: var(--main-color);
 }
 
-.team-list {}
+/* .team-list {}
 
-.team-list-item {}
+.team-list-item {} */
 
 .team-list-title {
-        font-weight: 500;
-        font-size: 20px;
-        line-height: 0.83;
-        text-align: center;
-        letter-spacing: 0.02em;
-    
-        color: #2E2F42;
+  text-align: center;
+
+  color: var(--main-color);
 }
 
 .team-list-text {
-        font-weight: 400;
-        font-size: 16px;
-        line-height: 1.5;
-        text-align: center;
-        letter-spacing: 0.02em;
-    
-        color: #434455;
+  text-align: center;
+  color: var(--second-color);
 }
 
+/* ----------------------------- FOOTER */
+
 .footer {
-    background-color: #2E2F42;
+  background-color: var(--second-color);
 }
 
 .footer-text {
-        font-weight: 400;
-        font-size: 16px;
-        line-height: 1.5;
-        letter-spacing: 0.02em;
-    
-        color: #E7E9FC;
+  color: var(--forth-color);
 }
