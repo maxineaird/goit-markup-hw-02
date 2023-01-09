@@ -12,7 +12,7 @@ list-style: none;
 
 /* ----------------------- HEADER */
 
-/*.header {
+/* .header {
 }
 .header-navigation {
 }
@@ -21,8 +21,8 @@ list-style: none;
 .header-list {
 }
 .header-item {
-}
-*/
+} */
+
 .header-link {
     font-family: 'Roboto';
     font-weight: 500;
@@ -56,8 +56,17 @@ list-style: none;
 /*---------------------- HERO */
 
 .hero {
+    background-color: #2E2F42;
 }
 .hero-header {
+        font-weight: 700;
+        font-size: 56px;
+        line-height: 1.07;
+    
+        text-align: center;
+        letter-spacing: 0.02em;
+    
+        color: #FFFFFF;
 }
 .hero-btn {
     font-family: inherit;
@@ -70,4 +79,107 @@ list-style: none;
     letter-spacing: 0.04em;
     
     color: #FFFFFF;
+}
+
+/* --------------------------- FEATURES */
+
+/* .features {} */
+
+.features-title {
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 1.2;
+    
+        letter-spacing: 0.02em;
+        color: #2E2F42;
+}
+
+/* .features-list-item {
+
+} */
+
+.features-list-title {
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 1.2;
+        letter-spacing: 0.02em;
+    
+        color: #2E2F42;
+}
+
+.features-list-text {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+    
+        color: #434455;
+}
+
+.work {}
+
+.work-title {
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 1.11;
+        text-align: center;
+        letter-spacing: 0.02em;
+        text-transform: capitalize;
+    
+        color: #2E2F42;
+}
+
+.work-list {}
+
+.work-list-item {}
+
+
+.team {}
+
+.team-title {
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 1.11;
+        text-align: center;
+        letter-spacing: 0.02em;
+        text-transform: capitalize;
+    
+        color: #2E2F42;
+}
+
+.team-list {}
+
+.team-list-item {}
+
+.team-list-title {
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 0.83;
+        text-align: center;
+        letter-spacing: 0.02em;
+    
+        color: #2E2F42;
+}
+
+.team-list-text {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 1.5;
+        text-align: center;
+        letter-spacing: 0.02em;
+    
+        color: #434455;
+}
+
+.footer {
+    background-color: #2E2F42;
+}
+
+.footer-text {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+    
+        color: #E7E9FC;
 }
